@@ -1,0 +1,124 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;     
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: rgba(149, 84, 43, 0.9);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: justify;
+  }
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.nav-link:visited {
+    color: #949494;
+}
+
+.nav-link:hover {
+    color: #c96177;
+    }
+
+nav {
+    margin: 20px;
+  }
+
+.main-container {
+    margin: 2% 15%;
+}
+
+.section {
+    max-width: 1440px;
+    margin: 0 40px;
+    min-height: 50px;
+    width: 30%;
+}   
+
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+h1,
+h2,
+.post {
+    text-transform: uppercase;
+}
+
+h1 {
+    size: 30px;
+}
+
+h2 {
+    size: 20px;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.all-ul {
+    list-style-image: url(tomat.png);
+}
+
+.all-link {
+    color: #f30f0f;
+}
+
+.all-link:visited {
+    color: #540c05;
+}
+
+.all-link:hover {
+    color: #c96177;
+}
+
+.footer-container {
+    background-color: rgba(149, 84, 43, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+div {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.GH-link {
+    color: #ffffff;
+}
+
+.GH-link:hover {
+    color: #000000;
+}
